@@ -3,31 +3,154 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Case study: TDMS Sync Checker, a metadata-first QA/QC tool for engineering TDMS files and sensor synchronisation diagnostics.">
-  <title>TDMS Sync Checker | Sergio Lopez Dubon</title>
-  <link rel="stylesheet" href="../assets/css/style.css">
+  <meta name="description" content="Portfolio of Sergio Lopez Dubon: applied AI, research software, digital twins, anomaly detection and sensor-data QA/QC for engineering systems.">
+  <meta property="og:title" content="Sergio Lopez Dubon | Applied AI & Research Software">
+  <meta property="og:description" content="Digital twins, anomaly detection, sensor-data QA/QC and scientific Python for engineering systems.">
+  <meta property="og:type" content="website">
+  <title>Sergio Lopez Dubon | Applied AI & Research Software</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header"><nav class="nav" aria-label="Main navigation"><a class="brand" href="../index.html">Sergio Lopez Dubon</a><div class="nav-links"><a href="../index.html">Home</a><a class="active" href="../projects.html">Projects</a><a href="../about.html">About</a><a href="../index.html#contact">Contact</a><button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle colour theme">Theme</button></div></nav></header>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="index.html">Sergio Lopez Dubon</a>
+      <div class="nav-links">
+        <a class="active" href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle colour theme">Theme</button>
+      </div>
+    </nav>
+  </header>
 
   <main id="main">
-    <section class="case-hero"><div class="container"><span class="eyebrow"><span class="dot" aria-hidden="true"></span> Sensor data · TDMS · QA/QC</span><h1>TDMS Sync Checker</h1><p class="lead">A practical tool for inspecting engineering measurement files, checking timing metadata, reviewing group/channel synchronisation and identifying split-file continuity issues.</p><div class="actions"><a class="button primary" href="https://github.com/sergioald/tdms-sync-checker">View repository</a><a class="button secondary" href="../projects.html">Back to projects</a></div></div></section>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow"><span class="dot" aria-hidden="true"></span> Applied AI · research software · engineering data</span>
+          <h1>Applied AI for engineering systems.</h1>
+          <p class="lead">I build research-software and machine-learning workflows that connect sensor data, simulation and domain knowledge to monitor, validate and understand complex physical systems.</p>
+          <div class="actions" aria-label="Primary links">
+            <a class="button primary" href="projects.html">View projects</a>
+            <a class="button secondary" href="https://github.com/sergioald">GitHub</a>
+            <a class="button secondary" href="https://www.linkedin.com/in/sergio-lopez-dubon/">LinkedIn</a>
+          </div>
+          <div class="hero-tags" aria-label="Technical areas">
+            <span class="tag">Digital twins</span>
+            <span class="tag">Anomaly detection</span>
+            <span class="tag">Sensor-data QA/QC</span>
+            <span class="tag">Scientific Python</span>
+            <span class="tag">Reproducible workflows</span>
+          </div>
+        </div>
+        <aside class="hero-card" aria-label="Portfolio focus summary">
+          <div class="signal-card">
+            <div class="mini-title"><span>Portfolio focus</span><span>engineering AI</span></div>
+            <div class="bars" aria-hidden="true">
+              <div class="bar"><span style="width: 92%"></span></div>
+              <div class="bar"><span style="width: 84%"></span></div>
+              <div class="bar"><span style="width: 78%"></span></div>
+              <div class="bar"><span style="width: 72%"></span></div>
+            </div>
+            <div class="tags">
+              <span class="tag">monitoring</span>
+              <span class="tag">validation</span>
+              <span class="tag">diagnostics</span>
+              <span class="tag">reports</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
 
     <section>
-      <div class="container case-layout">
-        <article>
-          <div class="visual"><img src="../assets/img/tdms-sync-checker.svg" alt="TDMS synchronisation checker workflow diagram"></div>
-          <div class="panel"><h2>Problem</h2><p>Large engineering test campaigns can produce TDMS files with many groups and channels. Before analysis or modelling, the data needs basic structural checks: timing metadata, channel length consistency, split-file continuity and possible synchronisation drift.</p></div>
-          <div class="panel"><h2>Approach</h2><ul class="feature-list"><li>Inspect TDMS metadata without requiring sensitive data to be exposed.</li><li>Summarise groups, channels, time vectors and sampling behaviour.</li><li>Flag possible inactive channels, mismatched durations and continuity problems.</li><li>Support command-line and GUI-style workflows for rapid engineering review.</li></ul></div>
-          <div class="panel"><h2>What it demonstrates</h2><p>This is the most practical engineering-data project in the portfolio. It shows how data QA/QC can be packaged as a reusable tool rather than handled as one-off scripts.</p></div>
-          <div class="code-panel">git clone https://github.com/sergioald/tdms-sync-checker.git<br>cd tdms-sync-checker<br>python -m pip install -e .<br># see the repository README for CLI and GUI commands</div>
-        </article>
-        <aside class="case-sidebar card"><h3>Project summary</h3><p><strong>Area:</strong> Sensor-data QA/QC</p><p><strong>Methods:</strong> timing metadata inspection, synchronisation diagnostics, split-file continuity checks</p><p><strong>Best for:</strong> showing practical engineering software and data-quality workflows</p><div class="tags"><span class="tag">TDMS</span><span class="tag">DAQ</span><span class="tag">QA/QC</span><span class="tag">Python</span></div><div class="case-links"><a class="inline-link" href="https://github.com/sergioald/tdms-sync-checker">GitHub</a></div></aside>
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2>Selected projects</h2>
+            <p>Four public repositories that show the main shape of my applied-AI and research-software work.</p>
+          </div>
+          <a class="inline-link" href="projects.html">All project summaries →</a>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="visual"><img src="assets/img/hydraulic-digital-twin.svg" alt="Hydraulic digital twin workflow diagram"></div>
+            <h3>Hydraulic Digital Twin</h3>
+            <p>Synthetic, confidentiality-safe workflow for generating hydraulic sensor data, validating signals, detecting anomalies, classifying operating states and producing reports.</p>
+            <div class="tags"><span class="tag">digital twins</span><span class="tag">synthetic data</span><span class="tag">anomaly detection</span></div>
+            <div class="links"><a class="inline-link" href="projects/hydraulic-digital-twin.html">Case study</a><a class="inline-link" href="https://github.com/sergioald/synthetic-hydraulic-digital-twin-demo">Repository</a></div>
+          </article>
+
+          <article class="project-card">
+            <div class="visual"><img src="assets/img/tdms-sync-checker.svg" alt="TDMS synchronisation checker workflow diagram"></div>
+            <h3>TDMS Sync Checker</h3>
+            <p>Metadata-first QA/QC tool for engineering TDMS files, including timing checks, group/channel synchronisation diagnostics and split-file continuity review.</p>
+            <div class="tags"><span class="tag">TDMS</span><span class="tag">sensor data</span><span class="tag">QA/QC</span></div>
+            <div class="links"><a class="inline-link" href="projects/tdms-sync-checker.html">Case study</a><a class="inline-link" href="https://github.com/sergioald/tdms-sync-checker">Repository</a></div>
+          </article>
+
+          <article class="project-card">
+            <div class="visual"><img src="assets/img/audio-anomaly.svg" alt="Structural audio anomaly detection workflow diagram"></div>
+            <h3>Structural Audio Anomaly Detection</h3>
+            <p>Audio and signal-processing workflow for structural-test monitoring using time-frequency features, latent representations and anomaly-scoring methods.</p>
+            <div class="tags"><span class="tag">audio</span><span class="tag">structural testing</span><span class="tag">ML</span></div>
+            <div class="links"><a class="inline-link" href="projects/structural-audio-anomaly-detection.html">Case study</a><a class="inline-link" href="https://github.com/sergioald/audio-anomaly-detection-structural-testing">Repository</a></div>
+          </article>
+
+          <article class="project-card">
+            <div class="visual"><img src="assets/img/ldsfl-meander.svg" alt="LDSFL meander modelling workflow diagram"></div>
+            <h3>LDSFL Meander</h3>
+            <p>Scientific Python implementation of a reduced morphodynamic model for river-centreline evolution, with reproducible examples and GUI/CLI workflows.</p>
+            <div class="tags"><span class="tag">scientific modelling</span><span class="tag">morphodynamics</span><span class="tag">Python</span></div>
+            <div class="links"><a class="inline-link" href="projects/ldsfl-meander.html">Case study</a><a class="inline-link" href="https://github.com/sergioald/LDSFL_Meander">Repository</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container grid two">
+        <div class="card">
+          <h2>Technical focus</h2>
+          <ul class="feature-list">
+            <li><strong>Applied AI:</strong> anomaly detection, classification, signal features and model validation.</li>
+            <li><strong>Engineering data:</strong> sensor synchronisation, experimental workflows, TDMS files and data quality.</li>
+            <li><strong>Scientific Python:</strong> NumPy, pandas, SciPy, Matplotlib, scikit-learn and reproducible scripts.</li>
+            <li><strong>Research software:</strong> clear documentation, examples, tests, reports and limitations.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h2>Repository style</h2>
+          <p>I try to make repositories useful as engineering artefacts, not only as code. Where possible, projects include a clear problem statement, quick-start instructions, example data or synthetic data, visual outputs and assumptions.</p>
+          <p>This portfolio emphasises reproducible workflows and honest boundaries around data, models and confidentiality.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container panel">
+        <h2>Contact</h2>
+        <p>I am interested in applied AI, research software, digital twins, anomaly detection and engineering-data workflows.</p>
+        <div class="actions">
+          <a class="button primary" href="https://github.com/sergioald">GitHub</a>
+          <a class="button secondary" href="https://www.linkedin.com/in/sergio-lopez-dubon/">LinkedIn</a>
+          <a class="button secondary" href="https://www.research.ed.ac.uk/en/persons/sergio-lopez-dubon/">Research Explorer</a>
+          <a class="button secondary" href="https://scholar.google.com/citations?user=0-u25RgAAAAJ&hl=en">Google Scholar</a>
+          <a class="button secondary" href="https://orcid.org/0000-0003-0663-607X">ORCID</a>
+        </div>
       </div>
     </section>
   </main>
-  <footer class="footer"><div class="container footer-inner"><span>© Sergio Lopez Dubon</span><span><a href="../projects.html">Projects</a> · <a href="https://github.com/sergioald">GitHub</a> · <a href="https://www.linkedin.com/in/sergio-lopez-dubon/">LinkedIn</a> · <a href="https://www.research.ed.ac.uk/en/persons/sergio-lopez-dubon/">Research Explorer</a> · <a href="https://scholar.google.com/citations?user=0-u25RgAAAAJ&hl=en">Google Scholar</a> · <a href="https://orcid.org/0000-0003-0663-607X">ORCID</a></span></div></footer>
-  <script src="../assets/js/main.js"></script>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© Sergio Lopez Dubon</span>
+      <span><a href="https://github.com/sergioald">GitHub</a> · <a href="https://www.linkedin.com/in/sergio-lopez-dubon/">LinkedIn</a> · <a href="https://www.research.ed.ac.uk/en/persons/sergio-lopez-dubon/">Research Explorer</a> · <a href="https://scholar.google.com/citations?user=0-u25RgAAAAJ&hl=en">Google Scholar</a> · <a href="https://orcid.org/0000-0003-0663-607X">ORCID</a></span>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
