@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520" role="img" aria-labelledby="title desc">
+<title id="title">TDMS synchronisation checker workflow</title>
+<desc id="desc">TDMS files are inspected for channel timing, group synchronisation and split-file continuity.</desc>
+<rect width="1000" height="520" fill="#0f172a"/>
+<g font-family="Inter,Segoe UI,sans-serif">
+<text x="500" y="72" text-anchor="middle" fill="#e5e7eb" font-size="34" font-weight="800">TDMS Sync Checker</text>
+<text x="500" y="112" text-anchor="middle" fill="#aab6c8" font-size="20">Metadata-first QA/QC for engineering measurement files</text>
+<g transform="translate(90 175)">
+<rect width="820" height="230" rx="24" fill="#172033" stroke="#334155"/>
+<g fill="none" stroke-width="6" stroke-linecap="round">
+<path d="M65 70 C150 20, 220 120, 310 68 S470 92, 560 52 S710 98, 755 74" stroke="#38bdf8"/>
+<path d="M65 125 C150 90, 235 150, 320 120 S470 128, 560 95 S700 145, 755 122" stroke="#34d399"/>
+<path d="M65 178 C155 155, 240 190, 340 172 S470 185, 570 150 S705 185, 755 169" stroke="#a78bfa"/>
+</g>
+<g fill="#aab6c8" font-size="17"><text x="65" y="36">Group/channel timing</text><text x="65" y="216">continuity · inactive channels · offsets · diagnostics</text></g>
+</g>
+<g fill="#fbbf24"><circle cx="645" cy="268" r="11"/><circle cx="705" cy="297" r="11"/><circle cx="765" cy="344" r="11"/></g>
+</g>
+</svg>

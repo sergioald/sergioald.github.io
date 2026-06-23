@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Case study: TDMS Sync Checker, a metadata-first QA/QC tool for engineering TDMS files and sensor synchronisation diagnostics.">
+  <title>TDMS Sync Checker | Sergio Lopez Dubon</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><nav class="nav" aria-label="Main navigation"><a class="brand" href="../index.html">Sergio Lopez Dubon</a><div class="nav-links"><a href="../index.html">Home</a><a class="active" href="../projects.html">Projects</a><a href="../about.html">About</a><a href="../index.html#contact">Contact</a><button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle colour theme">Theme</button></div></nav></header>
+
+  <main id="main">
+    <section class="case-hero"><div class="container"><span class="eyebrow"><span class="dot" aria-hidden="true"></span> Sensor data · TDMS · QA/QC</span><h1>TDMS Sync Checker</h1><p class="lead">A practical tool for inspecting engineering measurement files, checking timing metadata, reviewing group/channel synchronisation and identifying split-file continuity issues.</p><div class="actions"><a class="button primary" href="https://github.com/sergioald/tdms-sync-checker">View repository</a><a class="button secondary" href="../projects.html">Back to projects</a></div></div></section>
+
+    <section>
+      <div class="container case-layout">
+        <article>
+          <div class="visual"><img src="../assets/img/tdms-sync-checker.svg" alt="TDMS synchronisation checker workflow diagram"></div>
+          <div class="panel"><h2>Problem</h2><p>Large engineering test campaigns can produce TDMS files with many groups and channels. Before analysis or modelling, the data needs basic structural checks: timing metadata, channel length consistency, split-file continuity and possible synchronisation drift.</p></div>
+          <div class="panel"><h2>Approach</h2><ul class="feature-list"><li>Inspect TDMS metadata without requiring sensitive data to be exposed.</li><li>Summarise groups, channels, time vectors and sampling behaviour.</li><li>Flag possible inactive channels, mismatched durations and continuity problems.</li><li>Support command-line and GUI-style workflows for rapid engineering review.</li></ul></div>
+          <div class="panel"><h2>What it demonstrates</h2><p>This is the most practical engineering-data project in the portfolio. It shows how data QA/QC can be packaged as a reusable tool rather than handled as one-off scripts.</p></div>
+          <div class="code-panel">git clone https://github.com/sergioald/tdms-sync-checker.git<br>cd tdms-sync-checker<br>python -m pip install -e .<br># see the repository README for CLI and GUI commands</div>
+        </article>
+        <aside class="case-sidebar card"><h3>Project summary</h3><p><strong>Area:</strong> Sensor-data QA/QC</p><p><strong>Methods:</strong> timing metadata inspection, synchronisation diagnostics, split-file continuity checks</p><p><strong>Best for:</strong> showing practical engineering software and data-quality workflows</p><div class="tags"><span class="tag">TDMS</span><span class="tag">DAQ</span><span class="tag">QA/QC</span><span class="tag">Python</span></div><div class="case-links"><a class="inline-link" href="https://github.com/sergioald/tdms-sync-checker">GitHub</a></div></aside>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><span>© Sergio Lopez Dubon</span><span><a href="../projects.html">Projects</a></span></div></footer>
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>
