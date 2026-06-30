@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Strandings from Space workflow</title>
+  <desc id="desc">Remote sensing workflow from satellite imagery to annotations, observer comparison and conservation reporting.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#dff7ff"/>
+      <stop offset="1" stop-color="#eef8e8"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" x2="1">
+      <stop offset="0" stop-color="#7cc6d8"/>
+      <stop offset="1" stop-color="#4f9bb3"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#1d3340" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="900" height="520" rx="34" fill="url(#bg)"/>
+  <path d="M0 315 C120 270 210 355 330 310 C450 265 560 330 690 290 C790 260 845 275 900 250 L900 520 L0 520 Z" fill="url(#sea)" opacity="0.82"/>
+  <path d="M0 380 C120 335 210 410 345 360 C460 318 570 390 710 345 C790 320 845 330 900 300 L900 520 L0 520 Z" fill="#24758d" opacity="0.24"/>
+  <g filter="url(#shadow)">
+    <rect x="66" y="74" width="172" height="106" rx="22" fill="#ffffff"/>
+    <rect x="274" y="74" width="172" height="106" rx="22" fill="#ffffff"/>
+    <rect x="482" y="74" width="172" height="106" rx="22" fill="#ffffff"/>
+    <rect x="690" y="74" width="145" height="106" rx="22" fill="#ffffff"/>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" fill="#16313b">
+    <text x="152" y="112" text-anchor="middle" font-size="18" font-weight="700">VHR imagery</text>
+    <text x="152" y="140" text-anchor="middle" font-size="13">optical + SAR</text>
+    <text x="360" y="112" text-anchor="middle" font-size="18" font-weight="700">Pre-process</text>
+    <text x="360" y="140" text-anchor="middle" font-size="13">QGIS + Python</text>
+    <text x="568" y="112" text-anchor="middle" font-size="18" font-weight="700">Annotate</text>
+    <text x="568" y="140" text-anchor="middle" font-size="13">structured attributes</text>
+    <text x="762" y="112" text-anchor="middle" font-size="18" font-weight="700">Compare</text>
+    <text x="762" y="140" text-anchor="middle" font-size="13">observers + counts</text>
+  </g>
+  <g stroke="#236b81" stroke-width="5" stroke-linecap="round" opacity="0.55">
+    <path d="M242 127 H266"/>
+    <path d="M450 127 H474"/>
+    <path d="M658 127 H682"/>
+  </g>
+  <g transform="translate(78 230)">
+    <rect x="0" y="0" width="300" height="170" rx="24" fill="#fff" filter="url(#shadow)"/>
+    <rect x="26" y="30" width="112" height="82" rx="14" fill="#d9f1f5"/>
+    <path d="M26 88 C55 72 86 100 138 78 L138 112 L26 112 Z" fill="#5ba8ba"/>
+    <circle cx="91" cy="62" r="9" fill="#f4c35b"/>
+    <text x="166" y="56" font-family="Inter, Arial" font-size="17" font-weight="700" fill="#16313b">Open workflow</text>
+    <text x="166" y="84" font-family="Inter, Arial" font-size="13" fill="#4a6571">repeatable image preparation</text>
+    <text x="166" y="108" font-family="Inter, Arial" font-size="13" fill="#4a6571">and annotation protocol</text>
+  </g>
+  <g transform="translate(520 242)">
+    <rect x="0" y="0" width="280" height="150" rx="24" fill="#fff" filter="url(#shadow)"/>
+    <circle cx="62" cy="62" r="15" fill="#57aa70"/>
+    <rect x="101" y="47" width="26" height="26" rx="6" fill="#e9bf54"/>
+    <path d="M162 76 l16 -28 l16 28 z" fill="#4179c6"/>
+    <text x="34" y="116" font-family="Inter, Arial" font-size="13" fill="#4a6571">3 observers</text>
+    <text x="99" y="116" font-family="Inter, Arial" font-size="13" fill="#4a6571">2 observers</text>
+    <text x="164" y="116" font-family="Inter, Arial" font-size="13" fill="#4a6571">1 observer</text>
+  </g>
+</svg>
