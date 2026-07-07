@@ -9,6 +9,20 @@
   <meta property="og:type" content="website">
   <title>Sergio Lopez Dubon | Applied AI & Research Software</title>
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="canonical" href="https://sergioald.github.io/">
+  <meta name="theme-color" content="#0f172a">
+  <meta property="og:url" content="https://sergioald.github.io/">
+  <meta property="og:image" content="https://sergioald.github.io/assets/img/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Sergio Lopez Dubon | Applied AI & Research Software">
+  <meta name="twitter:description" content="Portfolio of Sergio Lopez Dubon: applied AI, research software, digital twins, anomaly detection, sensor-data QA/QC, structural testing, urban drainage monitoring, scientific ML and environmental monitoring.">
+  <meta name="twitter:image" content="https://sergioald.github.io/assets/img/og-image.png">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -31,7 +45,36 @@
       <p class="lead">I build public-safe research-software and machine-learning workflows that connect sensor data, simulation and domain knowledge for monitoring, validation, anomaly detection and engineering decision support.</p>
       <div class="actions" aria-label="Primary links"><a class="button primary" href="projects.html">View projects</a><a class="button secondary" href="https://github.com/sergioald">GitHub</a><a class="button secondary" href="https://www.linkedin.com/in/sergio-lopez-dubon/">LinkedIn</a></div>
       <div class="hero-tags" aria-label="Technical areas"><span class="tag">Structural testing</span><span class="tag">Sensor-data QA/QC</span><span class="tag">Digital twins</span><span class="tag">Anomaly detection</span><span class="tag">Scientific ML</span><span class="tag">Environmental monitoring</span></div>
-    </div><aside class="hero-card" aria-label="Portfolio focus summary"><div class="signal-card"><div class="mini-title"><span>Start here</span><span>best signal</span></div><div class="tags"><span class="tag">blade-test analysis</span><span class="tag">urban drainage QA/QC</span><span class="tag">meander classifier</span><span class="tag">TDMS diagnostics</span></div><p style="margin-top: 1rem;">The newest repositories are designed as public-safe demos: synthetic data, tests, visual outputs, and clear confidentiality boundaries.</p></div></aside></div></section>
+    </div><aside aria-label="Example sensor signal readout">
+      <div class="readout">
+        <div class="readout-head"><span>CH·01&nbsp; SENSOR SIGNAL</span><span style="color:var(--fault)">● ANOMALY FLAGGED</span></div>
+        <svg viewBox="0 0 440 220" role="img" aria-labelledby="ro-title ro-desc">
+          <title id="ro-title">Example sensor signal with a flagged anomaly</title>
+          <desc id="ro-desc">A simplified telemetry trace showing a steady periodic signal with one flagged anomaly point, representing the anomaly-detection and sensor QA/QC work across this portfolio.</desc>
+          <g stroke="var(--line)" stroke-width="1">
+            <line x1="0" y1="55" x2="440" y2="55"></line>
+            <line x1="0" y1="110" x2="440" y2="110"></line>
+            <line x1="0" y1="165" x2="440" y2="165"></line>
+            <line x1="110" y1="0" x2="110" y2="220"></line>
+            <line x1="220" y1="0" x2="220" y2="220"></line>
+            <line x1="330" y1="0" x2="330" y2="220"></line>
+          </g>
+          <g stroke="var(--signal)" stroke-width="2" fill="none">
+            <path d="M4 16 V4 H16"></path>
+            <path d="M424 4 H436 V16"></path>
+            <path d="M436 204 V216 H424"></path>
+            <path d="M16 216 H4 V204"></path>
+          </g>
+          <path class="readout-trace" pathLength="900" d="M0 130 C20 110,40 150,60 130 S100 110,120 130 S160 150,180 130 S220 108,240 130 S260 158,270 132 L278 58 L286 168 L294 130 S320 112,340 130 S380 148,400 130 S430 118,440 130" fill="none" stroke="var(--signal)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+          <circle cx="282" cy="58" r="5" fill="var(--fault)"></circle>
+          <line x1="282" y1="58" x2="282" y2="28" stroke="var(--fault)" stroke-width="1.5" stroke-dasharray="2 3"></line>
+          <text x="290" y="24" fill="var(--fault)" font-family="var(--mono)" font-size="11" font-weight="700">ANOMALY</text>
+        </svg>
+        <div class="readout-foot"><span>0s</span><span>4s</span><span>8s</span><span>12s</span><span>16s</span></div>
+      </div>
+      <p class="mini-label">Start here → best signal</p>
+      <div class="tags"><span class="tag">blade-test analysis</span><span class="tag">urban drainage QA/QC</span><span class="tag">meander classifier</span><span class="tag">TDMS diagnostics</span></div>
+    </aside></div></section>
     <section><div class="container grid two"><div class="card"><h2>One-click demo direction</h2><p>The repositories are still installable research-software packages, but the next portfolio improvement is to deploy one lightweight interactive demo.</p><p><strong>Best first demo:</strong> Urban Drainage Sensor Data Toolkit, because it already uses synthetic telemetry, static reports, anomaly screening and synthetic map outputs.</p></div><div class="card"><h2>Portfolio focus</h2><p>These projects are selected to show applied AI beyond model fitting: data quality, reproducibility, diagnostics, reporting, domain constraints and safe publication boundaries.</p><div class="tags"><span class="tag">synthetic data</span><span class="tag">tests</span><span class="tag">reports</span><span class="tag">public-safe</span></div></div></div></section>
     <section><div class="container"><div class="section-head"><div><h2>Selected projects</h2><p>Public repositories showing applied-AI, research-software, structural-testing and environmental-monitoring workflows.</p></div><a class="inline-link" href="projects.html">All project summaries →</a></div><div class="project-grid"><article class="project-card">
           <div class="visual"><img src="assets/img/tidal-blade-test-analysis.svg" alt="Tidal Blade Test Analysis workflow diagram"></div>
@@ -51,7 +94,7 @@
           <div class="visual"><img src="assets/img/meander-morphology-classifier.svg" alt="Meander Morphology Classifier workflow diagram"></div>
           <h3>Meander Morphology Classifier</h3>
           <p>Scientific-ML toolkit and Streamlit GUI for curvature-based meander classification using CWT spectra, autoencoder latent spaces and clustering.</p>
-          <div class="tags"><span class="tag">scientific ML</span><span class="tag">autoencoders</span><span class="tag">geomorphology</span></div>
+          <div class="tags"><span class="tag">scientific ML</span><span class="tag">autoencoders</span><span class="tag">geomorphology</span><span class="tag">peer-reviewed</span></div>
           <div class="links"><a class="inline-link" href="projects/meander-morphology-classifier.html">Read case study</a><a class="inline-link" href="https://github.com/sergioald/meander-morphology-classifier">GitHub repo</a></div>
         </article>
 <article class="project-card">

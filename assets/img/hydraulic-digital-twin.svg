@@ -1,16 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520" role="img" aria-labelledby="title desc">
-<title id="title">Hydraulic digital twin workflow</title>
-<desc id="desc">Synthetic sensor data flow through validation, anomaly detection, classification and reporting.</desc>
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#38bdf8"/><stop offset="1" stop-color="#a78bfa"/></linearGradient></defs>
-<rect width="1000" height="520" fill="#0f172a"/>
-<g fill="none" stroke="#334155" stroke-width="2"><path d="M90 260h820"/><path d="M260 150v220M500 150v220M740 150v220"/></g>
-<g font-family="Inter,Segoe UI,sans-serif" text-anchor="middle">
-<g><rect x="55" y="190" width="170" height="140" rx="22" fill="#172033" stroke="#38bdf8"/><text x="140" y="245" fill="#e5e7eb" font-size="23" font-weight="700">Synthetic</text><text x="140" y="275" fill="#aab6c8" font-size="17">sensor data</text></g>
-<g><rect x="300" y="190" width="170" height="140" rx="22" fill="#172033" stroke="#34d399"/><text x="385" y="245" fill="#e5e7eb" font-size="23" font-weight="700">Validation</text><text x="385" y="275" fill="#aab6c8" font-size="17">QA / features</text></g>
-<g><rect x="545" y="190" width="170" height="140" rx="22" fill="#172033" stroke="#fbbf24"/><text x="630" y="245" fill="#e5e7eb" font-size="23" font-weight="700">Detection</text><text x="630" y="275" fill="#aab6c8" font-size="17">fault states</text></g>
-<g><rect x="790" y="190" width="170" height="140" rx="22" fill="#172033" stroke="#a78bfa"/><text x="875" y="245" fill="#e5e7eb" font-size="23" font-weight="700">Reports</text><text x="875" y="275" fill="#aab6c8" font-size="17">HTML / Markdown</text></g>
-<text x="500" y="72" fill="#e5e7eb" font-size="34" font-weight="800">Hydraulic digital twin demo</text>
-<text x="500" y="112" fill="#aab6c8" font-size="20">Confidentiality-safe engineering monitoring workflow</text>
-</g>
-<g stroke="url(#g)" stroke-width="5" fill="none" stroke-linecap="round"><path d="M230 260h55"/><path d="M475 260h55"/><path d="M720 260h55"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="t d">
+  <title id="t">Hydraulic Digital Twin</title>
+  <desc id="d">Synthetic sensor data · validation · anomaly detection</desc>
+  <defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+    <path d="M28 0 H0 V28" fill="none" stroke="#1b222b" stroke-width="1"/>
+  </pattern></defs>
+  <rect width="900" height="520" rx="26" fill="#12171f"/>
+  <rect width="900" height="520" rx="26" fill="url(#grid)"/>
+  <g stroke="#f5a524" stroke-width="2" fill="none">
+    <path d="M18 32 V18 H32"/>
+    <path d="M868 18 H882 V32"/>
+    <path d="M882 488 V502 H868"/>
+    <path d="M32 502 H18 V488"/>
+    </g>
+  <text x="52" y="66" fill="#e9edf2" font-family="Arial Narrow,Arial,sans-serif" font-size="34" font-weight="700" letter-spacing="0.01em">HYDRAULIC DIGITAL TWIN</text>
+  <text x="52" y="94" fill="#8b97a6" font-family="Consolas,SFMono-Regular,monospace" font-size="13.5">Synthetic sensor data · validation · anomaly detection</text>
+  <rect x="52" y="168" width="796" height="210" rx="10" fill="#0a0e13" stroke="#2a323d"/>
+  <line x1="52" y1="220.5" x2="848" y2="220.5" stroke="#2a323d" stroke-width="1"/>
+<line x1="52" y1="273.0" x2="848" y2="273.0" stroke="#2a323d" stroke-width="1"/>
+<line x1="52" y1="325.5" x2="848" y2="325.5" stroke="#2a323d" stroke-width="1"/>
+<line x1="211.2" y1="168" x2="211.2" y2="378" stroke="#2a323d" stroke-width="1"/>
+<line x1="370.4" y1="168" x2="370.4" y2="378" stroke="#2a323d" stroke-width="1"/>
+<line x1="529.6" y1="168" x2="529.6" y2="378" stroke="#2a323d" stroke-width="1"/>
+<line x1="688.8" y1="168" x2="688.8" y2="378" stroke="#2a323d" stroke-width="1"/>
+  <path d="M52 260 C110 220,170 220,230 260 S350 300,410 260 S530 220,590 260 S710 300,770 260 S830 230,848 260" fill="none" stroke="#f5a524" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M52 300 C130 330,200 270,280 300 S420 330,500 290 S620 250,700 290 S800 330,848 300" fill="none" stroke="#3ed598" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="590" cy="260" r="6" fill="#ef6461"/>
+  <rect x="52.0" y="404" width="188.5" height="46" rx="6" fill="#171e27" stroke="#2a323d"/>
+<circle cx="70.0" cy="427" r="3.4" fill="#f5a524"/>
+<text x="82.0" y="431" fill="#e9edf2" font-family="Consolas,SFMono-Regular,monospace" font-size="12.5" font-weight="700" letter-spacing="0.02em">SYNTHETIC DATA</text>
+<path d="M242.5 427 h10 M249.5 423 l6 4 l-6 4" stroke="#8b97a6" stroke-width="1.4" fill="none"/>
+<rect x="254.5" y="404" width="188.5" height="46" rx="6" fill="#171e27" stroke="#2a323d"/>
+<circle cx="272.5" cy="427" r="3.4" fill="#f5a524"/>
+<text x="284.5" y="431" fill="#e9edf2" font-family="Consolas,SFMono-Regular,monospace" font-size="12.5" font-weight="700" letter-spacing="0.02em">VALIDATION</text>
+<path d="M445.0 427 h10 M452.0 423 l6 4 l-6 4" stroke="#8b97a6" stroke-width="1.4" fill="none"/>
+<rect x="457.0" y="404" width="188.5" height="46" rx="6" fill="#171e27" stroke="#2a323d"/>
+<circle cx="475.0" cy="427" r="3.4" fill="#f5a524"/>
+<text x="487.0" y="431" fill="#e9edf2" font-family="Consolas,SFMono-Regular,monospace" font-size="12.5" font-weight="700" letter-spacing="0.02em">ANOMALY + STATE</text>
+<path d="M647.5 427 h10 M654.5 423 l6 4 l-6 4" stroke="#8b97a6" stroke-width="1.4" fill="none"/>
+<rect x="659.5" y="404" width="188.5" height="46" rx="6" fill="#171e27" stroke="#2a323d"/>
+<circle cx="677.5" cy="427" r="3.4" fill="#f5a524"/>
+<text x="689.5" y="431" fill="#e9edf2" font-family="Consolas,SFMono-Regular,monospace" font-size="12.5" font-weight="700" letter-spacing="0.02em">REPORTS</text>
+  <text x="52" y="496" fill="#8b97a6" font-family="Consolas,SFMono-Regular,monospace" font-size="12.5">Confidentiality-safe demo -- no real facility data</text>
 </svg>

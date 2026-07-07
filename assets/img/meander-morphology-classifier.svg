@@ -1,1 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc"><title id="title">Meander Morphology Classifier</title><desc id="desc">CWT spectra · autoencoder latent spaces · clustering · Streamlit GUI</desc><defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#ede9fe"/><stop offset="1" stop-color="#f8fafc"/></linearGradient><linearGradient id="line" x1="0" x2="1"><stop offset="0" stop-color="#7c3aed"/><stop offset="1" stop-color="#06b6d4"/></linearGradient><filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0f172a" flood-opacity="0.12"/></filter></defs><rect width="900" height="520" rx="32" fill="url(#bg)"/><g filter="url(#shadow)"><rect x="55" y="65" width="790" height="390" rx="26" fill="#ffffff" opacity="0.95"/></g><text x="80" y="112" fill="#0f172a" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Meander Morphology Classifier</text><text x="80" y="142" fill="#475569" font-family="Inter, Arial, sans-serif" font-size="15">CWT spectra · autoencoder latent spaces · clustering · Streamlit GUI</text><g transform="translate(80 185)"><rect width="170" height="88" rx="18" fill="#f8fafc" stroke="#cbd5e1"/><text x="22" y="36" fill="#0f172a" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Synthetic data</text><text x="22" y="62" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="12">public-safe inputs</text></g><g transform="translate(280 185)"><rect width="170" height="88" rx="18" fill="#f8fafc" stroke="#cbd5e1"/><text x="22" y="36" fill="#0f172a" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">QA/QC</text><text x="22" y="62" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="12">checks + summaries</text></g><g transform="translate(480 185)"><rect width="170" height="88" rx="18" fill="#f8fafc" stroke="#cbd5e1"/><text x="22" y="36" fill="#0f172a" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Analysis</text><text x="22" y="62" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="12">features + diagnostics</text></g><g transform="translate(680 185)"><rect width="140" height="88" rx="18" fill="#f8fafc" stroke="#cbd5e1"/><text x="22" y="36" fill="#0f172a" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Reports</text><text x="22" y="62" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="12">plots + HTML</text></g><path d="M250 229 H280 M450 229 H480 M650 229 H680" stroke="url(#line)" stroke-width="6" stroke-linecap="round"/><g opacity="0.9"><path d="M120 365 C190 310, 250 420, 320 360 S455 300, 520 365 S650 420, 760 330" fill="none" stroke="url(#line)" stroke-width="12" stroke-linecap="round"/><circle cx="120" cy="365" r="9" fill="#7c3aed"/><circle cx="320" cy="360" r="9" fill="#7c3aed"/><circle cx="520" cy="365" r="9" fill="#7c3aed"/><circle cx="760" cy="330" r="9" fill="#7c3aed"/></g><text x="80" y="430" fill="#334155" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Centreline geometry → scientific ML classification</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="t d">
+  <title id="t">Meander Morphology Classifier</title>
+  <desc id="d">CWT spectra · autoencoder latent space · clustering</desc>
+  <defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+    <path d="M28 0 H0 V28" fill="none" stroke="#1b222b" stroke-width="1"/>
+  </pattern></defs>
+  <rect width="900" height="520" rx="26" fill="#12171f"/>
+  <rect width="900" height="520" rx="26" fill="url(#grid)"/>
+  <g stroke="#f5a524" stroke-width="2" fill="none">
+    <path d="M18 32 V18 H32"/>
+    <path d="M868 18 H882 V32"/>
+    <path d="M882 488 V502 H868"/>
+    <path d="M32 502 H18 V488"/>
+    </g>
+  <text x="52" y="66" fill="#e9edf2" font-family="Arial Narrow,Arial,sans-serif" font-size="34" font-weight="700" letter-spacing="0.01em">MEANDER MORPHOLOGY CLASSIFIER</text>
+  <text x="52" y="94" fill="#8b97a6" font-family="Consolas,SFMono-Regular,monospace" font-size="13.5">CWT spectra · autoencoder latent space · clustering</text>
+  <rect x="52" y="168" width="796" height="210" rx="10" fill="#0a0e13" stroke="#2a323d"/>
+  <line x1="52" y1="220.5" x2="848" y2="220.5" stroke="#2a323d" stroke-width="1"/>
+<line x1="52" y1="273.0" x2="848" y2="273.0" stroke="#2a323d" stroke-width="1"/>
+<line x1="52" y1="325.5" x2="848" y2="325.5" stroke="#2a323d" stroke-width="1"/>
+<line x1="211.2" y1="168" x2="211.2" y2="378" stroke="#2a323d" stroke-width="1"/>
+<line x1="370.4" y1="168" x2="370.4" y2="378" stroke="#2a323d" stroke-width="1"/>
+<line x1="529.6" y1="168" x2="529.6" y2="378" stroke="#2a323d" stroke-width="1"/>
+<line x1="688.8" y1="168" x2="688.8" y2="378" stroke="#2a323d" stroke-width="1"/>
+  <path d="M60 290 C110 230,150 350,200 300 S280 220,330 300 S410 360,460 280 S540 210,590 290 S670 350,720 280 S780 230,830 270" fill="none" stroke="#f5a524" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <rect x="52.0" y="404" width="188.5" height="46" rx="6" fill="#171e27" stroke="#2a323d"/>
+<circle cx="70.0" cy="427" r="3.4" fill="#f5a524"/>
+<text x="82.0" y="431" fill="#e9edf2" font-family="Consolas,SFMono-Regular,monospace" font-size="12.5" font-weight="700" letter-spacing="0.02em">CENTRELINE</text>
+<path d="M242.5 427 h10 M249.5 423 l6 4 l-6 4" stroke="#8b97a6" stroke-width="1.4" fill="none"/>
+<rect x="254.5" y="404" width="188.5" height="46" rx="6" fill="#171e27" stroke="#2a323d"/>
+<circle cx="272.5" cy="427" r="3.4" fill="#f5a524"/>
+<text x="284.5" y="431" fill="#e9edf2" font-family="Consolas,SFMono-Regular,monospace" font-size="12.5" font-weight="700" letter-spacing="0.02em">CWT SPECTRA</text>
+<path d="M445.0 427 h10 M452.0 423 l6 4 l-6 4" stroke="#8b97a6" stroke-width="1.4" fill="none"/>
+<rect x="457.0" y="404" width="188.5" height="46" rx="6" fill="#171e27" stroke="#2a323d"/>
+<circle cx="475.0" cy="427" r="3.4" fill="#f5a524"/>
+<text x="487.0" y="431" fill="#e9edf2" font-family="Consolas,SFMono-Regular,monospace" font-size="12.5" font-weight="700" letter-spacing="0.02em">AUTOENCODER</text>
+<path d="M647.5 427 h10 M654.5 423 l6 4 l-6 4" stroke="#8b97a6" stroke-width="1.4" fill="none"/>
+<rect x="659.5" y="404" width="188.5" height="46" rx="6" fill="#171e27" stroke="#2a323d"/>
+<circle cx="677.5" cy="427" r="3.4" fill="#f5a524"/>
+<text x="689.5" y="431" fill="#e9edf2" font-family="Consolas,SFMono-Regular,monospace" font-size="12.5" font-weight="700" letter-spacing="0.02em">CLASSIFICATION</text>
+  <text x="52" y="496" fill="#8b97a6" font-family="Consolas,SFMono-Regular,monospace" font-size="12.5">Centreline geometry -&gt; scientific-ML classification</text>
+</svg>

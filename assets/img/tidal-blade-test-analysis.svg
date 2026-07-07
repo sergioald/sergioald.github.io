@@ -1,1 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc"><title id="title">Tidal Blade Test Analysis</title><desc id="desc">TDMS inspection · static response · fatigue cycles · natural frequency</desc><defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#e0f2fe"/><stop offset="1" stop-color="#f8fafc"/></linearGradient><linearGradient id="line" x1="0" x2="1"><stop offset="0" stop-color="#2563eb"/><stop offset="1" stop-color="#06b6d4"/></linearGradient><filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0f172a" flood-opacity="0.12"/></filter></defs><rect width="900" height="520" rx="32" fill="url(#bg)"/><g filter="url(#shadow)"><rect x="55" y="65" width="790" height="390" rx="26" fill="#ffffff" opacity="0.95"/></g><text x="80" y="112" fill="#0f172a" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Tidal Blade Test Analysis</text><text x="80" y="142" fill="#475569" font-family="Inter, Arial, sans-serif" font-size="15">TDMS inspection · static response · fatigue cycles · natural frequency</text><g transform="translate(80 185)"><rect width="170" height="88" rx="18" fill="#f8fafc" stroke="#cbd5e1"/><text x="22" y="36" fill="#0f172a" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Synthetic data</text><text x="22" y="62" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="12">public-safe inputs</text></g><g transform="translate(280 185)"><rect width="170" height="88" rx="18" fill="#f8fafc" stroke="#cbd5e1"/><text x="22" y="36" fill="#0f172a" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">QA/QC</text><text x="22" y="62" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="12">checks + summaries</text></g><g transform="translate(480 185)"><rect width="170" height="88" rx="18" fill="#f8fafc" stroke="#cbd5e1"/><text x="22" y="36" fill="#0f172a" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Analysis</text><text x="22" y="62" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="12">features + diagnostics</text></g><g transform="translate(680 185)"><rect width="140" height="88" rx="18" fill="#f8fafc" stroke="#cbd5e1"/><text x="22" y="36" fill="#0f172a" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Reports</text><text x="22" y="62" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="12">plots + HTML</text></g><path d="M250 229 H280 M450 229 H480 M650 229 H680" stroke="url(#line)" stroke-width="6" stroke-linecap="round"/><g opacity="0.9"><path d="M120 365 C190 310, 250 420, 320 360 S455 300, 520 365 S650 420, 760 330" fill="none" stroke="url(#line)" stroke-width="12" stroke-linecap="round"/><circle cx="120" cy="365" r="9" fill="#2563eb"/><circle cx="320" cy="360" r="9" fill="#2563eb"/><circle cx="520" cy="365" r="9" fill="#2563eb"/><circle cx="760" cy="330" r="9" fill="#2563eb"/></g><text x="80" y="430" fill="#334155" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Structural-test data → engineering diagnostics</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="t d">
+  <title id="t">Tidal Blade Test Analysis</title>
+  <desc id="d">TDMS inspection · fatigue cycles · natural frequency</desc>
+  <defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+    <path d="M28 0 H0 V28" fill="none" stroke="#1b222b" stroke-width="1"/>
+  </pattern></defs>
+  <rect width="900" height="520" rx="26" fill="#12171f"/>
+  <rect width="900" height="520" rx="26" fill="url(#grid)"/>
+  <g stroke="#f5a524" stroke-width="2" fill="none">
+    <path d="M18 32 V18 H32"/>
+    <path d="M868 18 H882 V32"/>
+    <path d="M882 488 V502 H868"/>
+    <path d="M32 502 H18 V488"/>
+    </g>
+  <text x="52" y="66" fill="#e9edf2" font-family="Arial Narrow,Arial,sans-serif" font-size="34" font-weight="700" letter-spacing="0.01em">TIDAL BLADE TEST ANALYSIS</text>
+  <text x="52" y="94" fill="#8b97a6" font-family="Consolas,SFMono-Regular,monospace" font-size="13.5">TDMS inspection · fatigue cycles · natural frequency</text>
+  <rect x="52" y="168" width="796" height="210" rx="10" fill="#0a0e13" stroke="#2a323d"/>
+  <line x1="52" y1="220.5" x2="848" y2="220.5" stroke="#2a323d" stroke-width="1"/>
+<line x1="52" y1="273.0" x2="848" y2="273.0" stroke="#2a323d" stroke-width="1"/>
+<line x1="52" y1="325.5" x2="848" y2="325.5" stroke="#2a323d" stroke-width="1"/>
+<line x1="211.2" y1="168" x2="211.2" y2="378" stroke="#2a323d" stroke-width="1"/>
+<line x1="370.4" y1="168" x2="370.4" y2="378" stroke="#2a323d" stroke-width="1"/>
+<line x1="529.6" y1="168" x2="529.6" y2="378" stroke="#2a323d" stroke-width="1"/>
+<line x1="688.8" y1="168" x2="688.8" y2="378" stroke="#2a323d" stroke-width="1"/>
+  <path d="M52 270.0 L56 289.6 L60 307.5 L64 322.2 L68 332.6 L72 337.8 L76 337.5 L80 331.7 L84 321.0 L88 306.3 L92 288.8 L96 269.9 L100 251.2 L104 234.2 L108 220.2 L112 210.4 L116 205.5 L120 205.8 L124 211.3 L128 221.5 L132 235.5 L136 252.2 L140 270.2 L144 288.0 L148 304.2 L152 317.5 L156 326.8 L160 331.5 L164 331.2 L168 325.9 L172 316.2 L176 302.8 L180 286.9 L184 269.8 L188 252.8 L192 237.4 L196 224.8 L200 215.9 L204 211.4 L208 211.8 L212 216.8 L216 226.1 L220 238.8 L224 254.0 L228 270.3 L232 286.4 L236 301.1 L240 313.1 L244 321.6 L248 325.8 L252 325.4 L256 320.6 L260 311.8 L264 299.6 L268 285.2 L272 269.7 L276 254.3 L280 240.3 L284 228.9 L288 220.9 L292 216.9 L296 217.2 L300 221.8 L304 230.3 L308 241.9 L312 255.6 L316 270.4 L320 285.0 L324 298.3 L328 309.2 L332 316.8 L336 320.6 L340 320.3 L344 315.9 L348 307.8 L352 296.8 L356 283.6 L360 269.6 L364 255.6 L368 243.0 L372 232.6 L376 225.4 L380 221.8 L384 222.2 L388 226.4 L392 234.1 L396 244.6 L400 257.1 L404 270.5 L408 283.7 L412 295.8 L416 305.6 L420 312.5 L424 315.9 L428 315.6 L432 311.5 L436 304.2 L440 294.2 L444 282.3 L448 269.5 L452 256.9 L456 245.4 L460 236.0 L464 229.5 L468 226.3 L472 226.6 L476 230.5 L480 237.5 L484 247.0 L488 258.4 L492 270.5 L496 282.6 L500 293.5 L504 302.4 L508 308.6 L512 311.6 L516 311.3 L520 307.6 L524 300.9 L528 291.8 L532 281.0 L536 269.4 L540 258.0 L544 247.6 L548 239.1 L552 233.2 L556 230.3 L560 230.7 L564 234.2 L568 240.6 L572 249.3 L576 259.5 L580 270.6 L584 281.5 L588 291.4 L592 299.4 L596 305.0 L600 307.8 L604 307.4 L608 304.1 L612 298.0 L616 289.7 L620 279.9 L624 269.4 L628 259.0 L632 249.6 L636 242.0 L640 236.6 L644 234.0 L648 234.4 L652 237.6 L656 243.4 L660 251.3 L664 260.6 L668 270.6 L672 280.5 L676 289.4 L680 296.7 L684 301.8 L688 304.3 L692 303.9 L696 300.9 L700 295.3 L704 287.8 L708 278.9 L712 269.4 L716 260.0 L720 251.4 L724 244.5 L728 239.7 L732 237.4 L736 237.7 L740 240.6 L744 245.9 L748 253.1 L752 261.6 L756 270.6 L760 279.6 L764 287.7 L768 294.3 L772 298.9 L776 301.1 L780 300.8 L784 298.0 L788 292.9 L792 286.1 L796 278.0 L800 269.3 L804 260.8 L808 253.1 L812 246.8" fill="none" stroke="#f5a524" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <rect x="52.0" y="404" width="188.5" height="46" rx="6" fill="#171e27" stroke="#2a323d"/>
+<circle cx="70.0" cy="427" r="3.4" fill="#f5a524"/>
+<text x="82.0" y="431" fill="#e9edf2" font-family="Consolas,SFMono-Regular,monospace" font-size="12.5" font-weight="700" letter-spacing="0.02em">TDMS INSPECTION</text>
+<path d="M242.5 427 h10 M249.5 423 l6 4 l-6 4" stroke="#8b97a6" stroke-width="1.4" fill="none"/>
+<rect x="254.5" y="404" width="188.5" height="46" rx="6" fill="#171e27" stroke="#2a323d"/>
+<circle cx="272.5" cy="427" r="3.4" fill="#f5a524"/>
+<text x="284.5" y="431" fill="#e9edf2" font-family="Consolas,SFMono-Regular,monospace" font-size="12.5" font-weight="700" letter-spacing="0.02em">STATIC + FATIGUE</text>
+<path d="M445.0 427 h10 M452.0 423 l6 4 l-6 4" stroke="#8b97a6" stroke-width="1.4" fill="none"/>
+<rect x="457.0" y="404" width="188.5" height="46" rx="6" fill="#171e27" stroke="#2a323d"/>
+<circle cx="475.0" cy="427" r="3.4" fill="#f5a524"/>
+<text x="487.0" y="431" fill="#e9edf2" font-family="Consolas,SFMono-Regular,monospace" font-size="12.5" font-weight="700" letter-spacing="0.02em">NATURAL FREQUENCY</text>
+<path d="M647.5 427 h10 M654.5 423 l6 4 l-6 4" stroke="#8b97a6" stroke-width="1.4" fill="none"/>
+<rect x="659.5" y="404" width="188.5" height="46" rx="6" fill="#171e27" stroke="#2a323d"/>
+<circle cx="677.5" cy="427" r="3.4" fill="#f5a524"/>
+<text x="689.5" y="431" fill="#e9edf2" font-family="Consolas,SFMono-Regular,monospace" font-size="12.5" font-weight="700" letter-spacing="0.02em">AI SCREENING</text>
+  <text x="52" y="496" fill="#8b97a6" font-family="Consolas,SFMono-Regular,monospace" font-size="12.5">Full-scale tidal blade structural-test workflows</text>
+</svg>

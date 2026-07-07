@@ -1,16 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520" role="img" aria-labelledby="title desc">
-<title id="title">LDSFL meander modelling workflow</title>
-<desc id="desc">A river centreline evolves through a reduced meander-morphodynamics model with reproducible outputs.</desc>
-<rect width="1000" height="520" fill="#0f172a"/>
-<g font-family="Inter,Segoe UI,sans-serif" text-anchor="middle">
-<text x="500" y="72" fill="#e5e7eb" font-size="34" font-weight="800">LDSFL Meander</text>
-<text x="500" y="112" fill="#aab6c8" font-size="20">Reduced morphodynamic modelling for river-centreline evolution</text>
-</g>
-<g transform="translate(80 172)">
-<rect width="840" height="250" rx="24" fill="#172033" stroke="#334155"/>
-<path d="M70 128 C160 30, 260 210, 350 124 S555 40, 650 130 S760 220, 785 105" fill="none" stroke="#38bdf8" stroke-width="16" stroke-linecap="round"/>
-<path d="M70 128 C160 30, 260 210, 350 124 S555 40, 650 130 S760 220, 785 105" fill="none" stroke="#0f172a" stroke-width="6" stroke-linecap="round" opacity=".55"/>
-<g fill="#fbbf24" opacity=".95"><circle cx="210" cy="143" r="8"/><circle cx="410" cy="95" r="8"/><circle cx="610" cy="107" r="8"/></g>
-<g font-family="Inter,Segoe UI,sans-serif" fill="#aab6c8" font-size="17"><text x="65" y="222">centreline geometry · curvature · solver · GUI/CLI outputs</text></g>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="t d">
+  <title id="t">LDSFL Meander</title>
+  <desc id="d">Reduced meander-evolution model · reproducible examples</desc>
+  <defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+    <path d="M28 0 H0 V28" fill="none" stroke="#1b222b" stroke-width="1"/>
+  </pattern></defs>
+  <rect width="900" height="520" rx="26" fill="#12171f"/>
+  <rect width="900" height="520" rx="26" fill="url(#grid)"/>
+  <g stroke="#f5a524" stroke-width="2" fill="none">
+    <path d="M18 32 V18 H32"/>
+    <path d="M868 18 H882 V32"/>
+    <path d="M882 488 V502 H868"/>
+    <path d="M32 502 H18 V488"/>
+    </g>
+  <text x="52" y="66" fill="#e9edf2" font-family="Arial Narrow,Arial,sans-serif" font-size="34" font-weight="700" letter-spacing="0.01em">LDSFL MEANDER</text>
+  <text x="52" y="94" fill="#8b97a6" font-family="Consolas,SFMono-Regular,monospace" font-size="13.5">Reduced meander-evolution model · reproducible examples</text>
+  <rect x="52" y="168" width="796" height="210" rx="10" fill="#0a0e13" stroke="#2a323d"/>
+  <line x1="52" y1="220.5" x2="848" y2="220.5" stroke="#2a323d" stroke-width="1"/>
+<line x1="52" y1="273.0" x2="848" y2="273.0" stroke="#2a323d" stroke-width="1"/>
+<line x1="52" y1="325.5" x2="848" y2="325.5" stroke="#2a323d" stroke-width="1"/>
+<line x1="211.2" y1="168" x2="211.2" y2="378" stroke="#2a323d" stroke-width="1"/>
+<line x1="370.4" y1="168" x2="370.4" y2="378" stroke="#2a323d" stroke-width="1"/>
+<line x1="529.6" y1="168" x2="529.6" y2="378" stroke="#2a323d" stroke-width="1"/>
+<line x1="688.8" y1="168" x2="688.8" y2="378" stroke="#2a323d" stroke-width="1"/>
+  <path d="M60 300 C120 260,170 340,220 300 S310 250,360 300 S440 350,500 290 S580 240,640 300 S730 340,790 280" fill="none" stroke="#8b97a6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M60 300 C120 270,170 320,220 300 S310 265,360 300 S440 330,500 295 S580 255,640 300 S730 325,790 285" fill="none" stroke="#f5a524" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <rect x="52.0" y="404" width="188.5" height="46" rx="6" fill="#171e27" stroke="#2a323d"/>
+<circle cx="70.0" cy="427" r="3.4" fill="#f5a524"/>
+<text x="82.0" y="431" fill="#e9edf2" font-family="Consolas,SFMono-Regular,monospace" font-size="12.5" font-weight="700" letter-spacing="0.02em">CENTRELINE MODEL</text>
+<path d="M242.5 427 h10 M249.5 423 l6 4 l-6 4" stroke="#8b97a6" stroke-width="1.4" fill="none"/>
+<rect x="254.5" y="404" width="188.5" height="46" rx="6" fill="#171e27" stroke="#2a323d"/>
+<circle cx="272.5" cy="427" r="3.4" fill="#f5a524"/>
+<text x="284.5" y="431" fill="#e9edf2" font-family="Consolas,SFMono-Regular,monospace" font-size="12.5" font-weight="700" letter-spacing="0.02em">REDUCED SIMULATION</text>
+<path d="M445.0 427 h10 M452.0 423 l6 4 l-6 4" stroke="#8b97a6" stroke-width="1.4" fill="none"/>
+<rect x="457.0" y="404" width="188.5" height="46" rx="6" fill="#171e27" stroke="#2a323d"/>
+<circle cx="475.0" cy="427" r="3.4" fill="#f5a524"/>
+<text x="487.0" y="431" fill="#e9edf2" font-family="Consolas,SFMono-Regular,monospace" font-size="12.5" font-weight="700" letter-spacing="0.02em">VALIDATION</text>
+<path d="M647.5 427 h10 M654.5 423 l6 4 l-6 4" stroke="#8b97a6" stroke-width="1.4" fill="none"/>
+<rect x="659.5" y="404" width="188.5" height="46" rx="6" fill="#171e27" stroke="#2a323d"/>
+<circle cx="677.5" cy="427" r="3.4" fill="#f5a524"/>
+<text x="689.5" y="431" fill="#e9edf2" font-family="Consolas,SFMono-Regular,monospace" font-size="12.5" font-weight="700" letter-spacing="0.02em">CLI / GUI</text>
+  <text x="52" y="496" fill="#8b97a6" font-family="Consolas,SFMono-Regular,monospace" font-size="12.5">Initial centreline (dim) vs simulated evolution (amber)</text>
 </svg>

@@ -1,18 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620" role="img" aria-labelledby="title desc">
-<title id="title">Applied AI and research software overview</title>
-<desc id="desc">An overview linking sensor data, simulation, machine learning and reports.</desc>
-<rect width="1000" height="620" fill="#0f172a"/>
-<defs><linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#38bdf8"/><stop offset=".55" stop-color="#34d399"/><stop offset="1" stop-color="#a78bfa"/></linearGradient></defs>
-<g font-family="Inter,Segoe UI,sans-serif" text-anchor="middle">
-<text x="500" y="70" fill="#e5e7eb" font-size="34" font-weight="800">Applied AI for engineering systems</text>
-<text x="500" y="110" fill="#aab6c8" font-size="20">Connecting measurements, models and reproducible workflows</text>
-<circle cx="500" cy="330" r="96" fill="#172033" stroke="url(#a)" stroke-width="5"/>
-<text x="500" y="318" fill="#e5e7eb" font-size="25" font-weight="800">Research</text><text x="500" y="350" fill="#e5e7eb" font-size="25" font-weight="800">software</text>
-<g fill="#172033" stroke="#334155" stroke-width="2">
-<rect x="80" y="240" width="180" height="100" rx="22"/><rect x="740" y="240" width="180" height="100" rx="22"/><rect x="210" y="455" width="210" height="100" rx="22"/><rect x="580" y="455" width="210" height="100" rx="22"/>
-</g>
-<g fill="#e5e7eb" font-size="21" font-weight="700"><text x="170" y="282">Sensor</text><text x="170" y="311">data</text><text x="830" y="282">Simulation</text><text x="830" y="311">models</text><text x="315" y="497">ML workflows</text><text x="685" y="497">Reports</text></g>
-<g fill="#aab6c8" font-size="15"><text x="315" y="524">features · detection · validation</text><text x="685" y="524">figures · diagnostics · limits</text></g>
-</g>
-<g stroke="url(#a)" stroke-width="4" fill="none" stroke-linecap="round"><path d="M260 290 C330 290, 370 320, 404 328"/><path d="M596 328 C630 320, 670 290, 740 290"/><path d="M455 416 C420 450, 370 470, 420 492"/><path d="M545 416 C580 450, 630 470, 580 492"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="t d">
+<title id="t">Applied AI and research-software overview</title>
+<desc id="d">Three stacked sensor-channel traces feeding into validation, applied AI and reporting stages.</desc>
+<defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+    <path d="M28 0 H0 V28" fill="none" stroke="#1b222b" stroke-width="1"/>
+  </pattern></defs>
+<rect width="900" height="520" rx="26" fill="#12171f"/>
+<rect width="900" height="520" rx="26" fill="url(#grid)"/>
+<g stroke="#f5a524" stroke-width="2" fill="none">
+    <path d="M18 32 V18 H32"/>
+    <path d="M868 18 H882 V32"/>
+    <path d="M882 488 V502 H868"/>
+    <path d="M32 502 H18 V488"/>
+    </g>
+<text x="52" y="66" fill="#e9edf2" font-family="Arial Narrow,Arial,sans-serif" font-size="30" font-weight="700">SENSOR &amp; RESEARCH-SOFTWARE OVERVIEW</text>
+<text x="52" y="92" fill="#8b97a6" font-family="Consolas,monospace" font-size="13.5">Structural · hydrological · acoustic · telemetry channels</text>
+<rect x="52" y="120" width="796" height="260" rx="10" fill="#0a0e13" stroke="#2a323d"/>
+  <line x1="52" y1="185.0" x2="848" y2="185.0" stroke="#2a323d" stroke-width="1"/>
+<line x1="52" y1="250.0" x2="848" y2="250.0" stroke="#2a323d" stroke-width="1"/>
+<line x1="52" y1="315.0" x2="848" y2="315.0" stroke="#2a323d" stroke-width="1"/>
+<line x1="211.2" y1="120" x2="211.2" y2="380" stroke="#2a323d" stroke-width="1"/>
+<line x1="370.4" y1="120" x2="370.4" y2="380" stroke="#2a323d" stroke-width="1"/>
+<line x1="529.6" y1="120" x2="529.6" y2="380" stroke="#2a323d" stroke-width="1"/>
+<line x1="688.8" y1="120" x2="688.8" y2="380" stroke="#2a323d" stroke-width="1"/>
+  <path d="M60 180.0 L68 194.2 L76 204.4 L84 208.2 L92 206.1 L100 200.8 L108 196.0 L116 194.0 L124 195.0 L132 196.7 L140 196.0 L148 190.3 L156 179.3 L164 165.6 L172 153.2 L180 146.0 L188 145.9 L196 152.2 L204 161.6 L212 170.3 L220 175.5 L228 177.1 L236 177.1 L244 178.5 L252 183.9 L260 193.3 L268 204.3 L276 213.1 L284 216.1 L292 211.8 L300 201.4 L308 188.5 L316 177.3 L324 170.5 L332 168.5 L340 169.1 L348 169.3 L356 166.5 L364 160.4 L372 153.4 L380 148.8 L388 150.0 L396 158.1 L404 171.3 L412 185.9 L420 197.5 L428 203.5 L436 203.6 L444 200.1 L452 196.6 L460 195.6 L468 197.6 L476 200.8 L484 201.7 L492 197.6 L500 187.6 L508 173.7 L516 159.8 L524 150.1 L532 147.1 L540 150.7 L548 158.2 L556 165.7 L564 170.5 L572 171.8 L580 171.3 L588 172.2 L596 177.1 L604 186.7 L612 198.9 L620 210.0 L628 216.0 L636 214.7 L644 206.8 L652 195.3 L660 184.4 L668 177.2 L676 174.3 L684 174.3 L692 173.9 L700 170.6 L708 163.6 L716 154.8 L724 147.8 L732 146.2 L740 151.7 L748 163.2 L756 177.4 L764 189.8 L772 197.4 L780 199.4 L788 197.7 L796 195.4 L804 195.4 L812 198.6 L820 203.3" fill="none" stroke="#f5a524" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M60 273.3 L68 267.8 L76 265.4 L84 265.3 L92 265.1 L100 262.4 L108 255.8 L116 246.2 L124 236.6 L132 230.3 L140 229.8 L148 235.3 L156 244.8 L164 255.0 L172 262.6 L180 266.4 L188 266.9 L196 266.6 L204 268.0 L212 272.5 L220 279.2 L228 285.4 L236 288.0 L244 285.0 L252 276.3 L260 264.5 L268 252.9 L276 244.9 L284 241.9 L292 242.9 L300 245.5 L308 246.9 L316 245.7 L324 242.4 L332 239.6 L340 240.1 L348 245.6 L356 255.8 L364 268.2 L372 279.1 L380 285.5 L388 286.0 L396 281.9 L404 276.0 L412 271.2 L420 269.3 L428 269.7 L436 270.2 L444 268.1 L452 261.9 L460 252.0 L468 241.1 L476 232.6 L484 229.5 L492 232.5 L500 240.2 L508 249.4 L516 257.0 L524 261.1 L532 262.0 L540 262.0 L548 263.7 L556 268.6 L564 276.3 L572 284.2 L580 289.2 L588 288.6 L596 282.0 L604 271.3 L612 259.9 L620 251.0 L628 246.7 L636 246.3 L644 247.8 L652 248.3 L660 246.2 L668 241.8 L676 237.4 L684 235.9 L692 239.7 L700 248.7 L708 260.9 L716 272.8 L724 280.9 L732 283.6 L740 281.5 L748 277.0 L756 273.3 L764 272.0 L772 273.1 L780 274.6 L788 273.7 L796 268.3 L804 258.7 L812 247.0 L820 236.7" fill="none" stroke="#3ed598" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M60 323.5 L68 318.2 L76 312.0 L84 307.2 L92 306.5 L100 310.7 L108 318.9 L116 328.6 L124 336.9 L132 341.7 L140 342.8 L148 341.6 L156 340.3 L164 340.7 L172 343.4 L180 346.8 L188 348.7 L196 346.9 L204 340.6 L212 331.2 L220 321.1 L228 313.3 L236 309.8 L244 310.8 L252 314.4 L260 318.4 L268 320.7 L276 320.7 L284 319.7 L292 319.8 L300 322.9 L308 329.7 L316 338.8 L324 347.6 L332 353.4 L340 354.3 L348 350.4 L356 343.8 L364 337.2 L372 332.6 L380 330.8 L388 330.7 L396 330.2 L404 327.4 L412 321.7 L420 314.4 L428 308.0 L436 305.2 L444 307.4 L452 314.0 L460 323.1 L468 331.5 L476 337.1 L484 339.1 L492 338.8 L500 338.2 L508 339.2 L516 342.6 L524 347.2 L532 350.6 L540 350.6 L548 345.8 L556 337.2 L564 327.0 L572 318.2 L580 313.2 L588 312.5 L596 314.8 L604 317.8 L612 319.4 L620 318.8 L628 316.9 L636 315.9 L644 318.0 L652 324.1 L660 333.2 L668 343.0 L676 350.4 L684 353.3 L692 351.4 L700 346.3 L708 340.5 L716 336.3 L724 334.6 L732 334.7 L740 334.5 L748 331.9 L756 326.1 L764 318.1 L772 310.3 L780 305.4 L788 305.5 L796 310.3 L804 318.2 L812 326.4 L820 332.3" fill="none" stroke="#8b97a6" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round"/>
+  
+<text x="60" y="172" fill="#8b97a6" font-family="Consolas,monospace" font-size="11">CH01 STRUCTURAL</text>
+<text x="60" y="252" fill="#8b97a6" font-family="Consolas,monospace" font-size="11">CH02 HYDROLOGICAL</text>
+<text x="60" y="322" fill="#8b97a6" font-family="Consolas,monospace" font-size="11">CH03 ACOUSTIC</text>
+<rect x="52.0" y="406" width="188.5" height="46" rx="6" fill="#171e27" stroke="#2a323d"/>
+<circle cx="70.0" cy="429" r="3.4" fill="#f5a524"/>
+<text x="82.0" y="433" fill="#e9edf2" font-family="Consolas,SFMono-Regular,monospace" font-size="12.5" font-weight="700" letter-spacing="0.02em">SENSOR DATA</text>
+<path d="M242.5 429 h10 M249.5 425 l6 4 l-6 4" stroke="#8b97a6" stroke-width="1.4" fill="none"/>
+<rect x="254.5" y="406" width="188.5" height="46" rx="6" fill="#171e27" stroke="#2a323d"/>
+<circle cx="272.5" cy="429" r="3.4" fill="#f5a524"/>
+<text x="284.5" y="433" fill="#e9edf2" font-family="Consolas,SFMono-Regular,monospace" font-size="12.5" font-weight="700" letter-spacing="0.02em">VALIDATION</text>
+<path d="M445.0 429 h10 M452.0 425 l6 4 l-6 4" stroke="#8b97a6" stroke-width="1.4" fill="none"/>
+<rect x="457.0" y="406" width="188.5" height="46" rx="6" fill="#171e27" stroke="#2a323d"/>
+<circle cx="475.0" cy="429" r="3.4" fill="#f5a524"/>
+<text x="487.0" y="433" fill="#e9edf2" font-family="Consolas,SFMono-Regular,monospace" font-size="12.5" font-weight="700" letter-spacing="0.02em">APPLIED AI</text>
+<path d="M647.5 429 h10 M654.5 425 l6 4 l-6 4" stroke="#8b97a6" stroke-width="1.4" fill="none"/>
+<rect x="659.5" y="406" width="188.5" height="46" rx="6" fill="#171e27" stroke="#2a323d"/>
+<circle cx="677.5" cy="429" r="3.4" fill="#f5a524"/>
+<text x="689.5" y="433" fill="#e9edf2" font-family="Consolas,SFMono-Regular,monospace" font-size="12.5" font-weight="700" letter-spacing="0.02em">DECISION SUPPORT</text>
+<text x="52" y="496" fill="#8b97a6" font-family="Consolas,monospace" font-size="12.5">Reproducible workflows across engineering &amp; environmental domains</text>
 </svg>

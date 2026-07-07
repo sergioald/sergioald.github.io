@@ -1,19 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520" role="img" aria-labelledby="title desc">
-<title id="title">TDMS synchronisation checker workflow</title>
-<desc id="desc">TDMS files are inspected for channel timing, group synchronisation and split-file continuity.</desc>
-<rect width="1000" height="520" fill="#0f172a"/>
-<g font-family="Inter,Segoe UI,sans-serif">
-<text x="500" y="72" text-anchor="middle" fill="#e5e7eb" font-size="34" font-weight="800">TDMS Sync Checker</text>
-<text x="500" y="112" text-anchor="middle" fill="#aab6c8" font-size="20">Metadata-first QA/QC for engineering measurement files</text>
-<g transform="translate(90 175)">
-<rect width="820" height="230" rx="24" fill="#172033" stroke="#334155"/>
-<g fill="none" stroke-width="6" stroke-linecap="round">
-<path d="M65 70 C150 20, 220 120, 310 68 S470 92, 560 52 S710 98, 755 74" stroke="#38bdf8"/>
-<path d="M65 125 C150 90, 235 150, 320 120 S470 128, 560 95 S700 145, 755 122" stroke="#34d399"/>
-<path d="M65 178 C155 155, 240 190, 340 172 S470 185, 570 150 S705 185, 755 169" stroke="#a78bfa"/>
-</g>
-<g fill="#aab6c8" font-size="17"><text x="65" y="36">Group/channel timing</text><text x="65" y="216">continuity · inactive channels · offsets · diagnostics</text></g>
-</g>
-<g fill="#fbbf24"><circle cx="645" cy="268" r="11"/><circle cx="705" cy="297" r="11"/><circle cx="765" cy="344" r="11"/></g>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="t d">
+  <title id="t">TDMS Sync Checker</title>
+  <desc id="d">Group / channel timing · continuity diagnostics</desc>
+  <defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+    <path d="M28 0 H0 V28" fill="none" stroke="#1b222b" stroke-width="1"/>
+  </pattern></defs>
+  <rect width="900" height="520" rx="26" fill="#12171f"/>
+  <rect width="900" height="520" rx="26" fill="url(#grid)"/>
+  <g stroke="#f5a524" stroke-width="2" fill="none">
+    <path d="M18 32 V18 H32"/>
+    <path d="M868 18 H882 V32"/>
+    <path d="M882 488 V502 H868"/>
+    <path d="M32 502 H18 V488"/>
+    </g>
+  <text x="52" y="66" fill="#e9edf2" font-family="Arial Narrow,Arial,sans-serif" font-size="34" font-weight="700" letter-spacing="0.01em">TDMS SYNC CHECKER</text>
+  <text x="52" y="94" fill="#8b97a6" font-family="Consolas,SFMono-Regular,monospace" font-size="13.5">Group / channel timing · continuity diagnostics</text>
+  <rect x="52" y="168" width="796" height="210" rx="10" fill="#0a0e13" stroke="#2a323d"/>
+  <line x1="52" y1="220.5" x2="848" y2="220.5" stroke="#2a323d" stroke-width="1"/>
+<line x1="52" y1="273.0" x2="848" y2="273.0" stroke="#2a323d" stroke-width="1"/>
+<line x1="52" y1="325.5" x2="848" y2="325.5" stroke="#2a323d" stroke-width="1"/>
+<line x1="211.2" y1="168" x2="211.2" y2="378" stroke="#2a323d" stroke-width="1"/>
+<line x1="370.4" y1="168" x2="370.4" y2="378" stroke="#2a323d" stroke-width="1"/>
+<line x1="529.6" y1="168" x2="529.6" y2="378" stroke="#2a323d" stroke-width="1"/>
+<line x1="688.8" y1="168" x2="688.8" y2="378" stroke="#2a323d" stroke-width="1"/>
+  <path d="M52 320 H130 V240 H210 V320 H290 V240 H370 V320 H420 V300 H460 V320 H530 V240 H610 V320 H690 V240 H770 V320 H848" fill="none" stroke="#f5a524" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="440" cy="310" r="6" fill="#ef6461"/><text x="452" y="300" fill="#ef6461" font-family="Consolas,monospace" font-size="12" font-weight="700">GAP</text>
+  <rect x="52.0" y="404" width="188.5" height="46" rx="6" fill="#171e27" stroke="#2a323d"/>
+<circle cx="70.0" cy="427" r="3.4" fill="#f5a524"/>
+<text x="82.0" y="431" fill="#e9edf2" font-family="Consolas,SFMono-Regular,monospace" font-size="12.5" font-weight="700" letter-spacing="0.02em">TDMS METADATA</text>
+<path d="M242.5 427 h10 M249.5 423 l6 4 l-6 4" stroke="#8b97a6" stroke-width="1.4" fill="none"/>
+<rect x="254.5" y="404" width="188.5" height="46" rx="6" fill="#171e27" stroke="#2a323d"/>
+<circle cx="272.5" cy="427" r="3.4" fill="#f5a524"/>
+<text x="284.5" y="431" fill="#e9edf2" font-family="Consolas,SFMono-Regular,monospace" font-size="12.5" font-weight="700" letter-spacing="0.02em">CHANNEL SUMMARY</text>
+<path d="M445.0 427 h10 M452.0 423 l6 4 l-6 4" stroke="#8b97a6" stroke-width="1.4" fill="none"/>
+<rect x="457.0" y="404" width="188.5" height="46" rx="6" fill="#171e27" stroke="#2a323d"/>
+<circle cx="475.0" cy="427" r="3.4" fill="#f5a524"/>
+<text x="487.0" y="431" fill="#e9edf2" font-family="Consolas,SFMono-Regular,monospace" font-size="12.5" font-weight="700" letter-spacing="0.02em">CONTINUITY CHECK</text>
+<path d="M647.5 427 h10 M654.5 423 l6 4 l-6 4" stroke="#8b97a6" stroke-width="1.4" fill="none"/>
+<rect x="659.5" y="404" width="188.5" height="46" rx="6" fill="#171e27" stroke="#2a323d"/>
+<circle cx="677.5" cy="427" r="3.4" fill="#f5a524"/>
+<text x="689.5" y="431" fill="#e9edf2" font-family="Consolas,SFMono-Regular,monospace" font-size="12.5" font-weight="700" letter-spacing="0.02em">CLI / GUI</text>
+  <text x="52" y="496" fill="#8b97a6" font-family="Consolas,SFMono-Regular,monospace" font-size="12.5">Flags mismatched durations and continuity gaps</text>
 </svg>
