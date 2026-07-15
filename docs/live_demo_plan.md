@@ -1,15 +1,17 @@
-# Live demo plan
+# Live demos
 
-The website now acknowledges that one-click demos are the next portfolio improvement.
+Two portfolio projects are now deployed as one-click browser demos.
 
-Recommended first deployment:
+## Deployed demos
 
-1. `urban-drainage-sensor-data-toolkit`
-2. Deploy a small Streamlit or static-report demo using synthetic telemetry only.
-3. Add the deployed URL to:
-   - `index.html`
-   - `projects.html`
-   - `projects/urban-drainage-sensor-data-toolkit.html`
-   - the repository README
+1. Urban Drainage Sensor Data Toolkit  
+   https://urban-drainage-sensor-data-toolkit.streamlit.app/
 
-Do not add a "Launch demo" link until the deployment exists.
+2. Meander Morphology Classifier  
+   https://meander-morphology-classifier.streamlit.app/
+
+## Notes
+
+- The demos use public-safe synthetic or example data.
+- No private TDMS files, operational monitoring records, real coordinates, site IDs, client names, or confidential model files are exposed.
+- The portfolio homepage, project index, and the two case-study pages include Launch demo links.

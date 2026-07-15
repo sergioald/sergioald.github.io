@@ -5,6 +5,16 @@ Source for my personal portfolio, published via GitHub Pages at
 
 Static HTML/CSS/JS — no build step, no framework, no dependencies to install.
 
+
+## Live demos
+
+Two portfolio projects are deployed as public interactive demos:
+
+- Urban Drainage Sensor Data Toolkit: https://urban-drainage-sensor-data-toolkit.streamlit.app/
+- Meander Morphology Classifier: https://meander-morphology-classifier.streamlit.app/
+
+These demos use public-safe synthetic or example data so the workflows can be explored without cloning the repositories or setting up a local environment.
+
 ## Structure
 
 ```
